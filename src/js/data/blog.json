@@ -1,0 +1,26 @@
+[
+	{
+		"date": "2023-09-09",
+		"title": "BLog 1",
+		"imgUrl": "../assets/blog/blog1.png",
+		"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non consequat eros. Nulla porttitor semper convallis. Maecenas imperdiet tristique ante, a iaculis odio varius vitae. Suspendisse orci enim, mattis at velit et, molestie laoreet purus. Duis ut tristique lectus, sit amet fermentum nibh. Fusce eget eros vitae erat maximus fringilla. Ut quis sollicitudin nulla."
+	},
+	{
+		"date": "2023-10-10",
+		"title": "Blog 2",
+		"imgUrl": "../assets/blog/blog2.png",
+		"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non consequat eros. Nulla porttitor semper convallis. Maecenas imperdiet tristique ante, a iaculis odio varius vitae. Suspendisse orci enim, mattis at velit et, molestie laoreet purus. Duis ut tristique lectus, sit amet fermentum nibh. Fusce eget eros vitae erat maximus fringilla. Ut quis sollicitudin nulla."
+	},
+	{
+		"date": "2023-11-11",
+		"title": "Blog 3",
+		"imgUrl": "../assets/blog/blog3.png",
+		"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non consequat eros. Nulla porttitor semper convallis. Maecenas imperdiet tristique ante, a iaculis odio varius vitae. Suspendisse orci enim, mattis at velit et, molestie laoreet purus. Duis ut tristique lectus, sit amet fermentum nibh. Fusce eget eros vitae erat maximus fringilla. Ut quis sollicitudin nulla."
+	},
+	{
+		"date": "2022-08-08",
+		"title": "Article",
+		"imgUrl": "../assets/blog/blog4.png",
+		"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non consequat eros. Nulla porttitor semper convallis. Maecenas imperdiet tristique ante, a iaculis odio varius vitae. Suspendisse orci enim, mattis at velit et, molestie laoreet purus. Duis ut tristique lectus, sit amet fermentum nibh. Fusce eget eros vitae erat maximus fringilla. Ut quis sollicitudin nulla."
+	}
+]

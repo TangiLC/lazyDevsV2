@@ -1,0 +1,164 @@
+@import "_colors.scss";
+
+* {
+	font-family: "Outfit", sans-serif;
+}
+
+body {
+	max-width: 1600px;
+	margin: auto;
+}
+
+.a-dark,
+.a-dark:visited {
+	text-decoration: none;
+	color: black;
+}
+.a-dark:hover {
+	text-decoration: none;
+	color: $color_activeText;
+	opacity: 0.75;
+}
+
+h1 {
+	font-size: clamp(15px, 5rem, 60px);
+	font-weight: 700;
+}
+
+.subtitle1 {
+	font-size: clamp(12px, 4vw, 40px);
+	color: $color_darkText;
+	font-weight: 400;
+}
+
+.secondary-font {
+	font-family: "Roboto", sans-serif;
+}
+.nav-item {
+	color: $color_lightText;
+	font-size: 0.8rem;
+	padding-top: 20px;
+	white-space: nowrap;
+}
+
+.nav-item:hover {
+	color: $color_activeText;
+	font-weight: 600;
+}
+
+.lazy-logo {
+	height: 100px;
+	width: auto;
+}
+
+.bienvenu {
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	height: 45dvh;
+}
+
+.img-wrapper {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.inner-img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	object-fit: cover;
+	animation: zoomIn 4s ease-in-out 1;
+}
+
+.inner-img:hover {
+	animation: zoomIn 4s ease-in-out 1;
+}
+
+@keyframes zoomIn {
+	0% {
+		transform: scale(1);
+	}
+	33% {
+		transform: scale(1.1);
+	}
+	66% {
+		transform: scale(1);
+	}
+}
+
+.bienvenu-text {
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.35);
+	bottom: 100%;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.presentation {
+	font-size: clamp(8px, 1.8rem, 16px);
+	color: $color_lightText;
+}
+
+.game-img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 4%;
+}
+
+.btn-lz {
+	background-color: $color_bgButton;
+	color: $color_lightText;
+	width: 100%;
+}
+
+.btn-lz:hover {
+	color: $color_activeText;
+	background-color: #fff;
+	border: $color_bgButton 1px solid;
+}
+
+.game-title {
+	position: relative;
+	bottom: 10%;
+}
+
+.a-propos {
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	height: auto;
+	background: linear-gradient(90deg, $color_bgGrad2 20%, $color_bgGrad1 100%);
+}
+
+.card {
+	border: 0;
+	padding: 1rem;
+}
+
+.vertical-center {
+	height: 100%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.collab-img {
+	position: relative;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 4%;
+}
+.text-over {
+	position: relative;
+	top: -15%;
+	margin-left: auto;
+	margin-right: auto;
+	color:$color_lightText;
+	background-color: $color_darkText;
+}

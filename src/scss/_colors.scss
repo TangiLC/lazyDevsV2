@@ -1,0 +1,31 @@
+$color_darkText: #2c3569;
+$color_mildText: #abb2dd;
+$color_lightText: #ffffff;
+$color_activeText: #ffb950;
+$color_highlightText: #ffb950;
+$color_bgHeader: #000000;
+$color_bgGrad1: #fffedd;
+$color_bgGrad2: #c6f0ff;
+$color_bgButton: #ffb950;
+$color_bgActiveButton: #ffffff;
+$color_localizePin: #ff5555;
+
+.text-dark {
+	color: $color_darkText;
+}
+.text-mild {
+	color: $color_mildText;
+}
+.text-light {
+	color: $color_lightText;
+}
+.text-active {
+	color: $color_activeText;
+}
+.text-highlight {
+	color: $color_highlightText;
+}
+.bg-header {
+    background-color: $color_bgHeader;
+}
+
